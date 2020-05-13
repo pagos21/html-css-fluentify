@@ -6,14 +6,11 @@
 }
 
 .arr{
-  /* display: inline-block; */
-
   padding: 6px 10%;
 
 }
 
 .h_bg{
-  /* display: inline-block; */
   position: relative;
   background-color: darkblue;
   background-image: url(../img/fluentify-jumbo.png);
@@ -29,12 +26,9 @@
 }
 
 .nav1{
-  /* float: left; */
-  /* padding: 1px 5px; */
   text-align: center;
   margin-top: 10px;
   display: inline-block;
-  /* background-color: yellow; */
   width: 48%;
   margin-left: 10%;
 }
@@ -56,7 +50,6 @@ li a{
   margin-top: 10px;
   float: right;
   text-align: right;
-  /* background-color: green; */
   width: 30%;
 }
 
@@ -80,22 +73,19 @@ li a{
   position: absolute;
   top: 36%;
   left: 10%;
-  /* transform:translate(-50%, -50%); */
 }
 
 .textj > h3{
   position: absolute;
   top: 48%;
   left: 10%;
-  /* transform:translate(-50%, -50%); */
 }
 
 .bellow_h{
   position: relative;
   text-align: center;
   background-color: lightgrey;
-  /* width: 100%; */
-  height: 150px;
+  padding: 4%;
 }
 
 .txt2{
@@ -106,45 +96,100 @@ li a{
 }
 
 .riga{
-  background-color: purple;
-  height: 300px;
+  background-color: white;
   border-bottom: grey solid 3px;
 }
 
+.riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
   /* PRIMA COLONNA */
 
 
 .a1 {
+  text-align: center;
   margin: 0 3px;
   float: left;
   background-color: white;
-  height: 100%;
   width: 30%;
 }
 
 .img1x1{
   text-align: center;
-  width: 30%;
+  width: 120px;
+      height: 120px;
+  margin-left: 50%;
+  margin-bottom: 6%;
+  transform: translateX(-50%);
+
+  }
+
+.a1 h3{
+  width: 85%;
+  color: green;
+  margin-left: 8%;
 }
 
-.img1x1 img{
-
-  text-align: center;
-
+.a1 .hr1{
+  margin-left: 40%;
+  top: 81%;
+  margin-top: 2%;
+  width: 20%;
+  border-bottom: 2px solid grey;
 }
 
-.a2{
+.a1 p{
+  margin-top: 2%;
+  padding: 0 11px;
+}
+
+.x2{
+  float: left;
+  text-align: left;
   width: 40%;
   margin-left: 4%;
 }
 
+.x2 > h2, .x2 > p {
+  margin-top: 10px;
+}
+
 .col2{
-  background-color: green;
-  height: 400px;
+  background-color: white;
+}
+
+.col2::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .pseudo_f{
+  padding: 4%;
+  position: relative;
   background-color: lightgrey;
-  height: 200px;
+}
+
+.pseudo_f > h3{
+  display: inline-block;
+  color: green;
+  float: left;
+}
+
+.pseudo_f p{
+  display: inline-block;
+  float: right;
+
+}
+
+p a{
+  border-radius: 15px;
+  text-decoration: none;
+  background-color: green;
+  margin: 0 2px;
+  border: 2px solid black;
+  padding: 10px;
 }
