@@ -15,8 +15,13 @@
   background-color: darkblue;
   background-image: url(../img/fluentify-jumbo.png);
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   height: 400px;
+}
+
+.bar{
+  background-color: darkblue;
 }
 
 .bar img{
