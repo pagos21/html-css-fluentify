@@ -111,10 +111,10 @@ li a{
 
 .a1 {
   text-align: center;
-  margin: 0 3px;
+  margin: 3% 0;
   float: left;
   background-color: white;
-  width: 30%;
+  width: 33%;
 }
 
 .img1x1{
@@ -168,7 +168,7 @@ li a{
 }
 
 .pseudo_f{
-  padding: 4%;
+  padding: 4% 10%;
   position: relative;
   background-color: lightgrey;
 }
