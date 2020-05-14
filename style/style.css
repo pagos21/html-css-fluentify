@@ -14,8 +14,8 @@
   position: relative;
   background-color: darkblue;
   background-image: url(../img/fluentify-jumbo.png);
-  background-position: center;
-  background-size: 100% 100%;
+  background-position: right;
+  background-size: contain;
   background-repeat: no-repeat;
   height: 400px;
 }
@@ -25,7 +25,6 @@
 }
 
 .bar img{
-  display: inline-block;
   float: left;
   width: 40px;
 }
@@ -35,7 +34,6 @@
   margin-top: 10px;
   display: inline-block;
   width: 48%;
-  margin-left: 10%;
 }
 
  ul li{
