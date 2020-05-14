@@ -10,16 +10,6 @@
 
 }
 
-.h_bg{
-  position: relative;
-  background-color: darkblue;
-  background-image: url(../img/fluentify-jumbo.png);
-  background-position: right;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 400px;
-}
-
 .bar{
   background-color: darkblue;
 }
@@ -49,7 +39,6 @@ li a{
 }
 
 .nav2{
-  display: inline-block;
   margin-top: 10px;
   float: right;
   text-align: right;
@@ -71,6 +60,15 @@ li a{
 
 /* MAIN */
 
+.h_bg{
+  position: relative;
+  background-color: darkblue;
+  background-image: url(../img/fluentify-jumbo.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
 
 .textj > h1{
   position: absolute;
@@ -81,6 +79,17 @@ li a{
 .textj > h3{
   position: absolute;
   top: 48%;
+  left: 10%;
+}
+
+.textj a{
+  color: white;
+  text-decoration: none;
+position: absolute;
+border-radius: 15px;
+ background-color: green;
+  padding: 10px;
+  top: 56%;
   left: 10%;
 }
 
@@ -97,6 +106,8 @@ li a{
   left: 50%;
   transform:translate(-50%, -50%);
 }
+
+
 
 .riga{
   background-color: white;
